@@ -24,23 +24,24 @@
         <!-- Classe para criação do avatar (insercao tags onde sera inserido as informações do conteudo)-->
         <div class="avatar">
           <!-- Tag img é onde está as refenrencias dos objetos, src é onde será inserido o "endereco da imagem", o alt é a "legenda da foto"-->
-          <img src="images/avatar.png" alt="Avatar" />
+          <img id="userPhoto" src="images/avatar.png" alt="Avatar" />
         </div>
 
         <!-- Tag Editora de texto, que deixa a fonte grande e em Negrito-->
         <h1 id="userName">Gabriel Munhoz</h1>
 
         <!-- A tag "a" é um hiper link, ela cria um link dentro de um texto formatado, o href é o atributo referência do hyper link que recebe o valor, no caso o link de direcionamento. A formatação do texto fica depois do fechamento do atributo.-->
-        <a href="https://github.com/GMunhoz10" target="_blank">
-          <img src="images/Github.svg" alt="Ícone Github" />gmunhozzz__</a
-        >
+        <a id="userLink" href="https://github.com/GMunhoz10" target="_blank">
+          <img src="images/Github.svg" alt="Ícone Github" />
+          <span id="userLogin">gmunhozzz__</span>
+        </a>
 
         <p id="userBio">
           O único homem que está isento de erros, é aquele que não arrisca
           tentar.
         </p>
         <!-- Tag para criação de lista não ordenada-->
-        <ul>
+        <ul id="socialLinks">
           <li class="facebook">
             <a
               href="https://www.facebook.com/gabrielsds.munhoz/"
